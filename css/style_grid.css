@@ -1,0 +1,40 @@
+.grid-1 {
+  padding-top: 40px;
+  display: grid;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-1 div {
+  	color: white;
+  	font-size: 23px;
+  	padding: 20px;
+  }
+
+.item-1 {
+  background: #b03532;
+  height: 150px;
+}
+.item-2 {
+  background: #33a8a5;
+  height: 150px;
+}
+.item-3 {
+  background: #30997a;
+  height: 150px;
+}
+.item-4 {
+  background: #6a478f;
+  height: 150px;
+}
+.item-5 {
+  background: #da6f2b;
+  height: 150px;
+}
+.item-6 {
+  background: #3d8bb1;
+  height: 150px;
+}
